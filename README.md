@@ -46,4 +46,4 @@ Project Link: [https://github.com/anuragbansall/Weather-App](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/anuragbansall
-[product-screenshot]: ./public/weather-logo.png
+[product-screenshot]: ./public/weather-app.png
