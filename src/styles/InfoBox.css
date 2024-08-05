@@ -1,0 +1,22 @@
+#InfoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#InfoBox .card{
+    width: 20rem;
+    height: fit-content;
+    padding: 1rem;
+}
+
+#InfoBox .card #weather-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#InfoBox .card #weather-title img{
+    height: 3rem;
+}

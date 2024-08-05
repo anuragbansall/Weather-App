@@ -1,0 +1,40 @@
+#SearchBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#SearchBox form{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#SearchBox form #search-field{
+    padding: 1rem 2rem;
+}
+
+#SearchBox form #search-btn{
+    padding: 0rem 2rem;
+}
+
+@media (max-width: 600px) {
+    #SearchBox h2{
+        display: none;
+    }
+    
+    #SearchBox form{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #SearchBox form #search-field{
+        padding: 1rem 2rem;
+    }
+    
+    #SearchBox form #search-btn{
+        padding: 1rem 2rem;
+    }
+}
